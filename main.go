@@ -19,7 +19,7 @@ func main() {
 
 	hello, ok := ps.(func(string) string)
 	if !ok {
-		log.Println("malformed plugin")
+		log.Fatal("malformed plugin")
 	}
 
 	fmt.Println(hello("Alex"))
