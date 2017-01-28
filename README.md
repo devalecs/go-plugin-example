@@ -1,4 +1,4 @@
-# GoLang 1.8beta1 Plugin Example
+# Golang 1.8beta1 plugin example
 
 For more informations about GoLang plugins check the official [documentation](https://beta.golang.org/pkg/plugin/).
 
